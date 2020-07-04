@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /a/downloads/-/*
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkout
+Disallow: /carts
+Disallow: /account
+Disallow: /collections/*sort_by*sort_by*
+Disallow: /collections/*+*
+Disallow: /*/blogs/*+*
+Disallow: /*/blogs/*%2B*
+Disallow: /*/blogs/*%2b*
+Disallow: /*design_theme_id*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /policies/
+Disallow: /search
+
+User-agent: MJ12bot
+Crawl-Delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1
